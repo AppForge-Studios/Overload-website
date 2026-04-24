@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background: #0E0E0E;
+  color: #FFFFFF;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Eyebrow helper — small, uppercase, tracked */
+.eyebrow {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FF9F4A;
+}
+
+.eyebrow-muted {
+  color: #ADAAAA;
+}
+
+/* Radial halo used behind hero + section accents */
+.halo {
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 159, 74, 0.35) 0%,
+    rgba(255, 159, 74, 0) 60%
+  );
+}
+
+.halo-soft {
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 159, 74, 0.18) 0%,
+    rgba(255, 159, 74, 0) 60%
+  );
+}
+
+/* Subtle grid overlay used behind hero */
+.grid-overlay {
+  background-image:
+    linear-gradient(rgba(255, 159, 74, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 159, 74, 0.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(circle at center, black 0%, transparent 70%);
+  -webkit-mask-image: radial-gradient(circle at center, black 0%, transparent 70%);
+}
+
+/* Button press feedback */
+.press:active {
+  transform: scale(0.985);
+  opacity: 0.95;
+}
+
+/* Legal / long-form body text */
+.prose-legal p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #ADAAAA;
+}
+
+.prose-legal strong {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.prose-legal a {
+  color: #FF9F4A;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(255, 159, 74, 0.4);
+}
+
+.prose-legal a:hover {
+  text-decoration-color: #FF9F4A;
+}
+
+.prose-legal ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 12px 0;
+}
+
+.prose-legal ul li {
+  position: relative;
+  padding-left: 24px;
+  margin: 8px 0;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #ADAAAA;
+}
+
+.prose-legal ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 14px;
+  width: 12px;
+  height: 1px;
+  background: #FF9F4A;
+}
+
+.prose-legal h3 {
+  font-family: Lexend, system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FF9F4A;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
