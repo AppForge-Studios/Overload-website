@@ -44,6 +44,7 @@ export function Footer() {
             ["Privacy", "/privacy"],
             ["Terms", "/terms"],
             ["Security", "/security"],
+            ["Delete Account", "/delete"],
           ]}
         />
       </div>
