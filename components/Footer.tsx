@@ -35,7 +35,7 @@ export function Footer() {
             ["About", "#"],
             ["Careers", "#"],
             ["Press", "#"],
-            ["Contact", "#"],
+            ["Support", "/support"],
           ]}
         />
         <FooterCol
