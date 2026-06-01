@@ -30,7 +30,9 @@ export function CTA() {
 
         <div className="mt-8 md:mt-10 flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 justify-center">
           <a
-            href="#"
+            href="https://apps.apple.com/us/app/overload-strength-training/id6772410240"
+            target="_blank"
+            rel="noopener noreferrer"
             className="press inline-flex items-center justify-center gap-3 bg-grad-primary text-ink-900 font-semibold tracking-[0.18em] uppercase text-sm px-6 md:px-8 py-4 md:py-5 rounded-sm shadow-glow hover:shadow-glow-strong transition-shadow"
           >
             <AppleIcon />

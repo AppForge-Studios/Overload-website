@@ -53,7 +53,7 @@ export default function TermsPage() {
               </p>
               <p>
                 Notify us immediately at{" "}
-                <a href="mailto:security@overload.app">security@overload.app</a>
+                <a href="mailto:security@overloadfit.app">security@overloadfit.app</a>
                 {" "}if you suspect unauthorized access.
               </p>
             </>
@@ -81,7 +81,7 @@ export default function TermsPage() {
                 <li>
                   Refunds for App Store purchases follow Apple&rsquo;s refund
                   policy. For Stripe purchases, contact{" "}
-                  <a href="mailto:billing@overload.app">billing@overload.app</a>.
+                  <a href="mailto:billing@overloadfit.app">billing@overloadfit.app</a>.
                 </li>
                 <li>
                   If we change prices, we will notify you at least 30 days in
@@ -272,7 +272,7 @@ export default function TermsPage() {
                 Wilmington, Delaware, administered by JAMS under its
                 Streamlined Arbitration Rules. You may opt out of arbitration
                 within 30 days of first accepting these Terms by emailing{" "}
-                <a href="mailto:legal@overload.app">legal@overload.app</a>.
+                <a href="mailto:legal@overloadfit.app">legal@overloadfit.app</a>.
                 Claims for small-dollar amounts may still be brought in small
                 claims court.
               </p>
@@ -301,9 +301,9 @@ export default function TermsPage() {
           body: (
             <p>
               Reach out at{" "}
-              <a href="mailto:legal@overload.app">legal@overload.app</a>. For
+              <a href="mailto:legal@overloadfit.app">legal@overloadfit.app</a>. For
               billing questions, email{" "}
-              <a href="mailto:billing@overload.app">billing@overload.app</a>.
+              <a href="mailto:billing@overloadfit.app">billing@overloadfit.app</a>.
             </p>
           ),
         },

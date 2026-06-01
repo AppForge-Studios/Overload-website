@@ -25,7 +25,7 @@ export default function PrivacyPage() {
                 &ldquo;we,&rdquo; &ldquo;us&rdquo;) builds an adaptive
                 strength-training app. This Privacy Policy covers the mobile
                 app, the website at{" "}
-                <strong>overload.app</strong>, and any related services.
+                <strong>overloadfit.app</strong>, and any related services.
               </p>
               <p>
                 We designed Overload with a simple data principle: collect
@@ -224,7 +224,7 @@ export default function PrivacyPage() {
                 jurisdictions have additional rights to object to processing,
                 restrict processing, port data, and file a complaint with a
                 supervisory authority. Reach us at{" "}
-                <a href="mailto:privacy@overload.app">privacy@overload.app</a>.
+                <a href="mailto:privacy@overloadfit.app">privacy@overloadfit.app</a>.
               </p>
             </>
           ),
@@ -249,7 +249,7 @@ export default function PrivacyPage() {
               Overload is not intended for anyone under 16. We do not
               knowingly collect data from children. If you believe a child
               has provided us data, contact{" "}
-              <a href="mailto:privacy@overload.app">privacy@overload.app</a>{" "}
+              <a href="mailto:privacy@overloadfit.app">privacy@overloadfit.app</a>{" "}
               and we will delete it.
             </p>
           ),
@@ -285,11 +285,11 @@ export default function PrivacyPage() {
             <>
               <p>
                 Questions, requests, or concerns? Reach us at{" "}
-                <a href="mailto:privacy@overload.app">privacy@overload.app</a>.
+                <a href="mailto:privacy@overloadfit.app">privacy@overloadfit.app</a>.
               </p>
               <p>
                 For EU residents, you may also contact our EU representative
-                at <a href="mailto:eu-rep@overload.app">eu-rep@overload.app</a>.
+                at <a href="mailto:eu-rep@overloadfit.app">eu-rep@overloadfit.app</a>.
               </p>
             </>
           ),

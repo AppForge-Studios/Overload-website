@@ -39,10 +39,10 @@ export default function DeletePage() {
             <strong className="text-fg-muted">Settings → Account → Delete Account</strong>,
             or email{" "}
             <a
-              href="mailto:privacy@overload.app"
+              href="mailto:privacy@overloadfit.app"
               className="text-orange-400 underline underline-offset-2 decoration-orange-400/40 hover:decoration-orange-400 transition-colors"
             >
-              privacy@overload.app
+              privacy@overloadfit.app
             </a>{" "}
             and we&apos;ll remove your data within 30 days. See our{" "}
             <a

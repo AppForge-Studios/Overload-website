@@ -35,13 +35,13 @@ function friendlyError(err: unknown): string {
     case "auth/account-exists-with-different-credential":
       return "This email is registered with a different sign-in method. Use the matching button above.";
     case "auth/operation-not-allowed":
-      return "This sign-in method isn't enabled. Try another, or email privacy@overload.app.";
+      return "This sign-in method isn't enabled. Try another, or email privacy@overloadfit.app.";
     case "functions/unauthenticated":
       return "Your session expired. Sign in again to continue.";
     default:
       return err instanceof Error
         ? err.message
-        : "Something went wrong. Try again, or email privacy@overload.app.";
+        : "Something went wrong. Try again, or email privacy@overloadfit.app.";
   }
 }
 

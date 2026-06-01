@@ -174,7 +174,7 @@ export default function SecurityPage() {
               <p>
                 If you believe you&rsquo;ve found a vulnerability, please
                 report it to{" "}
-                <a href="mailto:security@overload.app">security@overload.app</a>.
+                <a href="mailto:security@overloadfit.app">security@overloadfit.app</a>.
                 We investigate every report and will respond within 2
                 business days.
               </p>
@@ -237,7 +237,7 @@ export default function SecurityPage() {
                 <li>
                   <strong>CCPA / CPRA</strong> — California residents can
                   exercise rights at{" "}
-                  <a href="mailto:privacy@overload.app">privacy@overload.app</a>.
+                  <a href="mailto:privacy@overloadfit.app">privacy@overloadfit.app</a>.
                 </li>
               </ul>
               <p>
@@ -253,7 +253,7 @@ export default function SecurityPage() {
           body: (
             <p>
               Security questions, vulnerability reports, or audit requests —{" "}
-              <a href="mailto:security@overload.app">security@overload.app</a>.
+              <a href="mailto:security@overloadfit.app">security@overloadfit.app</a>.
               Our PGP key is available on request.
             </p>
           ),
