@@ -38,12 +38,6 @@ export function CTA() {
             <AppleIcon />
             Download on iOS
           </a>
-          <a
-            href="#"
-            className="press inline-flex items-center justify-center gap-3 border border-border-strong text-fg font-semibold tracking-[0.18em] uppercase text-sm px-6 md:px-8 py-4 md:py-5 rounded-sm hover:border-orange-400/60 hover:text-orange-400 transition-colors"
-          >
-            Join Waitlist
-          </a>
         </div>
 
       </div>
